@@ -1,4 +1,11 @@
 {
+  "name": "docker-express-app",
+  "version": "1.0.0",
+  "description": "Docker Express App",
+  "main": "express.js",
+  "scripts": {
+    "start": "node express.js"
+  },
   "dependencies": {
     "express": "^4.21.2"
   }
