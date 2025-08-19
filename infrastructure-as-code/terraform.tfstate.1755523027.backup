@@ -1,7 +1,7 @@
 {
   "version": 4,
   "terraform_version": "1.12.2",
-  "serial": 13,
+  "serial": 12,
   "lineage": "b9106c44-ca1e-7450-8ab2-6a5bf7314e5f",
   "outputs": {},
   "resources": [
@@ -27,35 +27,6 @@
             "file_permission": "0777",
             "filename": "file0.txt",
             "id": "249fe5aee40516c5c569232c691c2ef2977dfc8c",
-            "sensitive_content": null,
-            "source": null
-          },
-          "sensitive_attributes": [
-            [
-              {
-                "type": "get_attr",
-                "value": "sensitive_content"
-              }
-            ]
-          ],
-          "identity_schema_version": 0
-        },
-        {
-          "index_key": 1,
-          "schema_version": 0,
-          "attributes": {
-            "content": "# Some content for file 1",
-            "content_base64": null,
-            "content_base64sha256": "PvYhaWbvqy61wfuobMxyvErIIaQOXCFUf5SW17etR90=",
-            "content_base64sha512": "ja/kDt07Std7BkyKKJGB6BO7xq425erjE3RU4Am6ViF6WBvwGIzvOMzpTGL+Fi+YcKgXV7uyj8z6QClKL/0ocw==",
-            "content_md5": "36cc636ba7e79f8e327711605d461ac6",
-            "content_sha1": "2e6d03ed1e47ed0cd076e718e721994f1b882f52",
-            "content_sha256": "3ef6216966efab2eb5c1fba86ccc72bc4ac821a40e5c21547f9496d7b7ad47dd",
-            "content_sha512": "8dafe40edd3b4ad77b064c8a289181e813bbc6ae36e5eae3137454e009ba56217a581bf0188cef38cce94c62fe162f9870a81757bbb28fccfa40294a2ffd2873",
-            "directory_permission": "0777",
-            "file_permission": "0777",
-            "filename": "file1.txt",
-            "id": "2e6d03ed1e47ed0cd076e718e721994f1b882f52",
             "sensitive_content": null,
             "source": null
           },
@@ -128,7 +99,36 @@
           "identity_schema_version": 0
         },
         {
-          "index_key": "file4.txt",
+          "index_key": 1,
+          "schema_version": 0,
+          "attributes": {
+            "content": "# Some content for file 1",
+            "content_base64": null,
+            "content_base64sha256": "PvYhaWbvqy61wfuobMxyvErIIaQOXCFUf5SW17etR90=",
+            "content_base64sha512": "ja/kDt07Std7BkyKKJGB6BO7xq425erjE3RU4Am6ViF6WBvwGIzvOMzpTGL+Fi+YcKgXV7uyj8z6QClKL/0ocw==",
+            "content_md5": "36cc636ba7e79f8e327711605d461ac6",
+            "content_sha1": "2e6d03ed1e47ed0cd076e718e721994f1b882f52",
+            "content_sha256": "3ef6216966efab2eb5c1fba86ccc72bc4ac821a40e5c21547f9496d7b7ad47dd",
+            "content_sha512": "8dafe40edd3b4ad77b064c8a289181e813bbc6ae36e5eae3137454e009ba56217a581bf0188cef38cce94c62fe162f9870a81757bbb28fccfa40294a2ffd2873",
+            "directory_permission": "0777",
+            "file_permission": "0777",
+            "filename": "file1.txt",
+            "id": "2e6d03ed1e47ed0cd076e718e721994f1b882f52",
+            "sensitive_content": null,
+            "source": null
+          },
+          "sensitive_attributes": [
+            [
+              {
+                "type": "get_attr",
+                "value": "sensitive_content"
+              }
+            ]
+          ],
+          "identity_schema_version": 0
+        },
+        {
+          "index_key": 4,
           "schema_version": 0,
           "attributes": {
             "content": "# Some content for file 4",

@@ -5,7 +5,7 @@ variable "files" {
 }
 
 resource "local_file" "foo" {
-  count    = var.files
-  content  = "# Some content for file ${count.index}"
-  filename = "file${count.index}.txt"
+  for_each = toset(["file0.txt", "file2.txt", "file3.txt", "file4.txt"])
+  content  = "# Some content for file ${trimprefix(each.key, "file")}"
+  filename = each.key
 }
